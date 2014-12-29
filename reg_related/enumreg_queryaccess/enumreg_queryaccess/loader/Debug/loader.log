@@ -1,0 +1,15 @@
+﻿Build started 2014/12/29 15:29:05.
+     1>Project "L:\WDoc\Glory_Programming\JZEY_Practice\reg_related\enumreg_queryaccess\enumreg_queryaccess\loader\loader.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         L:\VS2013\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\loader.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt loader.cpp
+         loader.cpp
+       Link:
+         L:\VS2013\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"L:\WDoc\Glory_Programming\JZEY_Practice\reg_related\enumreg_queryaccess\enumreg_queryaccess\Debug\loader.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"L:\WDoc\Glory_Programming\JZEY_Practice\reg_related\enumreg_queryaccess\enumreg_queryaccess\Debug\loader.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"L:\WDoc\Glory_Programming\JZEY_Practice\reg_related\enumreg_queryaccess\enumreg_queryaccess\Debug\loader.lib" /MACHINE:X86 Debug\loader.res
+         Debug\loader.obj
+         Debug\stdafx.obj
+         loader.vcxproj -> L:\WDoc\Glory_Programming\JZEY_Practice\reg_related\enumreg_queryaccess\enumreg_queryaccess\Debug\loader.exe
+     1>Done Building Project "L:\WDoc\Glory_Programming\JZEY_Practice\reg_related\enumreg_queryaccess\enumreg_queryaccess\loader\loader.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.42
