@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "enumreg_queryaccess", "enumreg_queryaccess\enumreg_queryaccess.vcxproj", "{3E9065EB-A019-49D0-ABE8-CC699C6F93EC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "loader", "loader\loader.vcxproj", "{D00086DD-26EC-4ADD-9948-9EC69B7559B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E9065EB-A019-49D0-ABE8-CC699C6F93EC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3E9065EB-A019-49D0-ABE8-CC699C6F93EC}.Debug|Win32.Build.0 = Debug|Win32
+		{3E9065EB-A019-49D0-ABE8-CC699C6F93EC}.Release|Win32.ActiveCfg = Release|Win32
+		{3E9065EB-A019-49D0-ABE8-CC699C6F93EC}.Release|Win32.Build.0 = Release|Win32
+		{D00086DD-26EC-4ADD-9948-9EC69B7559B1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D00086DD-26EC-4ADD-9948-9EC69B7559B1}.Debug|Win32.Build.0 = Debug|Win32
+		{D00086DD-26EC-4ADD-9948-9EC69B7559B1}.Release|Win32.ActiveCfg = Release|Win32
+		{D00086DD-26EC-4ADD-9948-9EC69B7559B1}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
