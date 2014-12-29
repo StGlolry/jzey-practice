@@ -5,6 +5,12 @@
 #include <tchar.h>
 #include "malloc.h"
 
+#include "stdafx.h"
+#include <strsafe.h>
+#include <winternl.h>
+#include <sddl.h>
+#include <sstream>
+
 #define MAX_KEY_LENGTH 255
 #define MAX_VALUE_NAME 16383
 
@@ -12,6 +18,25 @@ FILE *out;
 
 void queryAccess(HKEY hkey, wchar_t* regkey);
 
+HANDLE MyCreateProcess(char* exec, char* cmdline)
+{
+	STARTUPINFOA startInfo = { 0 };
+	PROCESS_INFORMATION procInfo = { 0 };
+
+	if (!CreateProcessA(exec, cmdline, NULL, NULL, FALSE, 0, NULL, NULL,
+		&startInfo, &procInfo))
+	{
+		//DebugPrintf("Error Creating Process: %d", GetLastError());
+
+		return nullptr;
+	}
+	else
+	{
+		CloseHandle(procInfo.hThread);
+
+		return procInfo.hProcess;
+	}
+}
 void enumRegKeys(HKEY hKey)
 {
 	TCHAR    achKey[MAX_KEY_LENGTH];   // buffer for subkey name
@@ -177,6 +202,8 @@ void queryAccess(HKEY hkey,wchar_t* regkey)
 
 void MainWorker()
 {
+
+	MyCreateProcess("C:\\Windows\\SysWOW64\\cmd.exe", "cmd");
 	MessageBoxA(0, "inject success", "Injected", MB_OK);
 	fopen_s(&out,"result.txt", "w+");
 	if (out == NULL)
