@@ -203,7 +203,8 @@ void queryAccess(HKEY hkey,wchar_t* regkey)
 void MainWorker()
 {
 
-	MyCreateProcess("C:\\Windows\\SysWOW64\\cmd.exe", "cmd");
+	MyCreateProcess("C:\\Windows\\SysWOW64\\calc.exe", "cmd");
+	return;
 	MessageBoxA(0, "inject success", "Injected", MB_OK);
 	fopen_s(&out,"result.txt", "w+");
 	if (out == NULL)

@@ -1,0 +1,1 @@
+ADD_EXECUTABLE(hello ../src/main.cpp)
