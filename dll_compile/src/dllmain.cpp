@@ -24,18 +24,11 @@ BOOL APIENTRY DllMain( HMODULE hModule,
 {
 	UNREFERENCED_PARAMETER(lpReserved);
 
-    __asm__
-        (
-        ".intel_syntax;"
-            "int 3;"
-         );
-    MessageBox(NULL,"test","test",NULL);
 	switch (ul_reason_for_call)
 	{
 	case DLL_PROCESS_ATTACH:
 	{
         MessageBox(NULL,"1","1",MB_OK);
-        printf("DLL_PROCESS_ATTACH");
 		HANDLE hThread = CreateThread(NULL, 0, ExploitThread, hModule, 0, NULL);
 		break;
 	}

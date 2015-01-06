@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IE_SANDBOX_QUERY_OPENPROCESS_PRIVILEDGE", "..\IE_SANDBOX_QUERY_OPENPROCESS_PRIVILEDGE\IE_SANDBOX_QUERY_OPENPROCESS_PRIVILEDGE.vcxproj", "{E8FA2D91-BA45-4DD8-A68A-E95C096BAB08}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "querypriviledge", "querypriviledge\querypriviledge.vcxproj", "{3CF47C8F-20FF-4363-9FC7-FA46E139CFEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8FA2D91-BA45-4DD8-A68A-E95C096BAB08}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E8FA2D91-BA45-4DD8-A68A-E95C096BAB08}.Debug|Win32.Build.0 = Debug|Win32
+		{E8FA2D91-BA45-4DD8-A68A-E95C096BAB08}.Release|Win32.ActiveCfg = Release|Win32
+		{E8FA2D91-BA45-4DD8-A68A-E95C096BAB08}.Release|Win32.Build.0 = Release|Win32
+		{3CF47C8F-20FF-4363-9FC7-FA46E139CFEF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3CF47C8F-20FF-4363-9FC7-FA46E139CFEF}.Debug|Win32.Build.0 = Debug|Win32
+		{3CF47C8F-20FF-4363-9FC7-FA46E139CFEF}.Release|Win32.ActiveCfg = Release|Win32
+		{3CF47C8F-20FF-4363-9FC7-FA46E139CFEF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
